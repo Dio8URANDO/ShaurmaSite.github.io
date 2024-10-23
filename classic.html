@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Классическая Шаурма - Шаурма от шефа</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #e74c3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav button {
+    margin: 0 15px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #f0f0f0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Классическая Шаурма</h1>
+        <nav>
+            <button onclick="location.href='index.html'">Главная</button>
+            <button onclick="location.href='menu.html'">Меню</button>
+            <button onclick="location.href='contact.html'">Контакты</button>
+        </nav>
+    </header>
+
+    <section>
+        <img src="images/classic_shawarma.jpg" alt="Классическая шаурма">
+        <p>Сочный куриный филе с овощами и специальным соусом.</p>
+        <p><strong>Ингредиенты:</strong> куриное филе, свежие овощи, лаваш, соус.</p>
+        <span>Цена: 250 Р</span>
+        <button class="order-button">Заказать</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Шаурма от шефа. Все права защищены.</p>
+    </footer>
+</body>
+</html>
